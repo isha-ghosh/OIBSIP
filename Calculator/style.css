@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0%;
+	padding-bottom: 10px;
+	color: brown;
+  }
+  body {
+    padding: 0;
+    margin: 20px;
+	display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, brown, #f7fbf9);
+  }
+
+.calculator {
+	width: 290px;
+	margin: 0 auto;
+	border: 1px solid  hsl(0, 71%, 43%);
+	background-color: #cb2a2a;
+	padding: 10px;
+	justify-content: center;
+    align-content: center;
+}
+
+.display {
+	margin-bottom: 10px;
+	padding-right: 15px;
+	color: white;
+	padding-left: 2px;
+}
+
+.display input {
+	width: 95%;
+	font-size: 24px;
+	padding: 5px;
+}
+
+.keys {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2px;
+	
+}
+
+.keys button {
+	width: 60px;
+	height: 70px;
+	margin: 5px;
+	font-size: 24px;
+	border-radius: 5px;
+	border: none;
+	background-color:rgb(216, 208, 208);
+	cursor: pointer;
+}
+
+.keys button:active {
+	background-color:  brown;
+}
+
+.keys button:last-child {
+	width: 130px;
+}
+.keys button:first-child{
+	width: 127px;
+}
+
